@@ -8,11 +8,12 @@ togglbutton.render('.story-state:not(.toggl)', { observe: true }, function (
   elem = elem.parentNode.parentNode.parentNode;
 
   const getDescription = function () {
-    return $('h2.story-name', elem).textContent;
+    const permalink = $('.permalink', elem).value;
+    return `ch${permalink.split('io/switchcase/story/')[1]}`;
   };
 
   const getProject = function () {
-    return $('.story-project .value', elem).textContent;
+    return $('.story-epic .value', elem).textContent;
   };
 
   const link = togglbutton.createTimerLink({
