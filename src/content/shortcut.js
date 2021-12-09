@@ -8,10 +8,10 @@ togglbutton.render('.story-state:not(.toggl)', { observe: true }, function (
   elem = elem.parentNode.parentNode.parentNode;
 
   const getDescription = function () {
-    const storyId = $('.story-id > input', elem).value;
-    const title = $('h2.story-name', elem).textContent;
+    const storyId = $('.story-id .clipboard', elem).value;
+    const title = $('h2.story-name', elem).textContent.toLowerCase().replaceAll(' ', '-');
 
-    return `#${storyId} - ${title}`;
+    return `sc-${storyId}/${title}`;
   };
 
   const getProject = function () {
