@@ -1,3 +1,8 @@
+/**
+ * @name Shortcut
+ * @urlAlias shortcut.com
+ * @urlRegex *://app.shortcut.com/*
+ */
 'use strict';
 
 togglbutton.render('.story-state:not(.toggl)', { observe: true }, function (
