@@ -237,6 +237,11 @@ export default {
     url: '*://keep.google.com/*',
     name: 'Google Keep'
   },
+  'khanacademy.org': {
+    url: '*://*.khanacademy.org/*',
+    name: 'KhanAcademy',
+    file: 'khanacademy.js'
+  },
   'mail.google.com': {
     url: '*://mail.google.com/*',
     name: 'Google Mail'
@@ -296,11 +301,6 @@ export default {
   'kantree.io': {
     url: '*://*.kantree.io/*',
     name: 'Kantree'
-  },
-  'khanacademy.org': {
-    url: '*://*.khanacademy.org/*',
-    name: 'KhanAcademy',
-    file: 'khanacademy.js'
   },
   'www.khanacademy.org': {
     url: '*://www.khanacademy.org/*',
@@ -373,6 +373,14 @@ export default {
   'odoo.com': {
     url: '*://*.odoo.com/*',
     name: 'Odoo'
+  },
+  'ongemini.com': {
+    url: '*://*.ongemini.com/*',
+    name: 'Gemini'
+  },
+  'openproject.com': {
+    url: '*://*.openproject.com/*',
+    name: 'Openproject'
   },
   'onlyoffice.com': {
     url: '*://*.onlyoffice.com/*',
@@ -536,11 +544,6 @@ export default {
   'app.shortcut.com': {
     url: '*://app.shortcut.com/*',
     name: 'Shortcut'
-  },
-  'shortcut.com': {
-    url: '*://app.shortcut.com/*',
-    name: 'Shortcut',
-    file: 'shortcut.js'
   },
   'sifterapp.com': {
     url: '*://*.sifterapp.com/*',
