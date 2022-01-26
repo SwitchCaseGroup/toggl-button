@@ -55,6 +55,10 @@ Or start entry from the extension icon menu.
 ### Editing Shortcut Extension
 Follow the "Editing built-in integration" instructions in the [contributing section](#contributing). When editing the integration, copy the contents of the `src/content/shortcut.js` file into the edit dialog.
 
+#### Enabling Auto Tags
+To enable auto tagging, go to the Toggl settings and on the "General" side menu, make sure "Enable automatic tagging" is checked.
+![](./docs/tags-enable.png)
+
 ## Supported services
 
 For a list of supported services please refer to [integrations](docs/INTEGRATIONS.md)
