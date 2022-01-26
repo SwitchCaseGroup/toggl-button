@@ -23,10 +23,25 @@ togglbutton.render('.story-state:not(.toggl)', { observe: true }, function (
     return $('.story-epic .value', elem).textContent;
   };
 
+  const getTags = function () {
+    const tags = [];
+    const labels = $('.labels', elem).getElementsByTagName('span');
+    
+    for(const label of labels) {
+      const tagName = label.textContent;
+      if(tagName) {
+        tags.push(tagName);
+      }
+    }
+
+    return tags;
+  };
+
   const link = togglbutton.createTimerLink({
     className: 'toggl-shortcut',
     description: getDescription,
-    projectName: getProject
+    projectName: getProject,
+    tags: getTags
   });
 
   wrap.className = 'attribute editable-attribute toggl-button-shortcut-wrapper';
