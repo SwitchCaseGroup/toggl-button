@@ -53,11 +53,43 @@ Or start entry from the extension icon menu.
   - Start another time entry inside your account.
 
 ### Editing Shortcut Extension
-Follow the "Editing built-in integration" instructions in the [contributing section](#contributing). When editing the integration, copy the contents of the `src/content/shortcut.js` file into the edit dialog.
+1. Right click on extension icon in chrome.
 
-#### Enabling Auto Tags
-To enable auto tagging, go to the Toggl settings and on the "General" side menu, make sure "Enable automatic tagging" is checked.
-![](./docs/tags-enable.png)
+![](./docs/shortcut-1-settings.PNG)
+
+2. Selection Options
+
+3. Click Integrations in left menu
+
+![](./docs/shortcut-3-integrations.PNG)
+
+4. Scroll down to "Custom Integrations". If first time to enable, check "Enable development mode" and scroll back up to "Integrations" and click edit next to "Shortcut". If it's already enabled, click on "edit" next to "Shortcut" in the list of custom integrations
+
+![Enable Custom Integrations](./docs/shortcut-4-custom-integrations-enable-dev.PNG)
+
+![Edit Integration](./docs/shortcut-4-integrations-edit.PNG)
+
+![Custom Integration Already Active. Edit custom integration](./docs/shortcut-4-custom-integrations-edit.PNG)
+
+5. Paste in code from [shortcut.js](./src/content/shortcut.js) from toggle-button repo
+
+![](./docs/shortcut-5-paste-code.PNG)
+
+6. Click Save Integration
+
+![](./docs/shortcut-6-save-integration.PNG)
+
+7. Click “General” in left menu
+
+![](./docs/shortcut-7-general.PNG)
+
+8. Make sure Enable automatic tagging is checked
+
+![](./docs/shortcut-8-tags-enable.PNG)
+
+9. Go try new toggle button
+
+Follow the "Editing built-in integration" instructions in the [contributing section](#contributing). When editing the integration, copy the contents of the `src/content/shortcut.js` file into the edit dialog.
 
 ## Supported services
 
