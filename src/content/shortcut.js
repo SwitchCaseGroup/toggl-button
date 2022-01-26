@@ -29,8 +29,8 @@ togglbutton.render('.story-state:not(.toggl)', { observe: true }, function (
     
     for(const label of labels) {
       const tagName = label.textContent;
-      if(tagName) {
-        tags.push(tagName);
+      if(tagName && tagName.startsWith("wt-")) {
+         tags.push(tagName);
       }
     }
 
