@@ -89,7 +89,7 @@ Or start entry from the extension icon menu.
 
 9. Go try new toggle button
 
-Follow the "Editing built-in integration" instructions in the [contributing section](#contributing). When editing the integration, copy the contents of the `src/content/shortcut.js` file into the edit dialog.
+For further instructions, follow the "Editing built-in integration" instructions in the [contributing section](#contributing). When editing the integration, copy the contents of the `src/content/shortcut.js` file into the edit dialog.
 
 ## Supported services
 
